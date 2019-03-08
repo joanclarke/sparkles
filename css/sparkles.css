@@ -56,6 +56,17 @@ hr.logo-line {
   font-size: 1.5rem;
 } */
 
+#mainNavbar li.dropdown .dropdown-menu{
+  background-color: dimgrey;
+}
+#mainNavbar li.dropdown .dropdown-menu a.dropdown-item :hover{
+  background-color: dimgrey;
+}
+
+/* #mainNavbar li.dropdown .dropdown-menu .dropdown-item {
+  color: 
+} */
+
 /* ****** hero ****** */
 
 .pic-wrapper {
