@@ -19,19 +19,42 @@
 
 hr.logo-line {
   z-index: 2;
-  /* position: relative; */
+  position: relative;
   background-color: rgba(250, 235, 215, 0.5)
 }
 
 /* ****** nav ****** */
 
-nav {
+#mainNavbar {
   z-index: 3;
 }
-
-a.nav-link {
-  color: rgb(255,255,255);
+#mainNavbar ul {
+  /* display: block; */
+  margin: 0px auto;
 }
+
+#mainNavbar ul li a{
+  color: rgb(255,255,255);
+  letter-spacing: 4px;
+}
+
+#mainNavbar {
+  font-size: 0.85rem;
+  font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+  color: white;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #EA1C2C;
+}
+
+/* #mainNavbar .navbar-brand {
+  color: #EA1C2C;
+  font-size: 1.5rem;
+} */
 
 /* ****** hero ****** */
 
