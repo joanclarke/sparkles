@@ -126,7 +126,7 @@ figure {
   -o-animation-delay: 12s;
   -moz--animation-delay: 12s;
   -webkit-animation-delay: 12s;
-  background: url(https://i.imgur.com/edfTUcF.jpg) no-repeat center center;
+  background: url(https://i.imgur.com/8E6nmaq.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -138,19 +138,7 @@ figure {
   -o-animation-delay: 18s;
   -moz--animation-delay: 18s;
   -webkit-animation-delay: 18s;
-  background: url(https://i.imgur.com/tzpu3mV.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.pic-5 {
-  animation-delay: 24s;
-  -o-animation-delay: 24s;
-  -moz--animation-delay: 24s;
-  -webkit-animation-delay: 24s;
-  background: url(https://i.imgur.com/SAGam8z.jpg) no-repeat center center;
+  background: url(https://i.imgur.com/twq2tkJ.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -241,4 +229,9 @@ slideShow {  0% {
  opacity: 0;
  -webkit-transformm:scale(1);
 }
+}
+
+.test {
+  margin-top: 300px;
+  position: relative;
 }
