@@ -6,10 +6,14 @@
 
 /* ****** logo ****** */
 
-.logo-holder {
+.logo-wrapper {
   background-color: transparent;
   position: relative;
   z-index: 2;
+}
+
+.logo-holder {
+  width: 100%;
 }
 
 .logo img {
@@ -102,19 +106,28 @@ figure {
 
 .pic-1 {
   opacity: 1;
-  background: url(https://i.imgur.com/0LALH3A.jpg) no-repeat center center;
+  background: url('https://i.imgur.com/s9ct95C.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+/* .pic-2 {
+  opacity: 1;
+  background: url(https://i.imgur.com/0LALH3A.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
 .pic-2 {
   animation-delay: 6s;
   -o-animation-delay: 6s;
   -moz--animation-delay: 6s;
   -webkit-animation-delay: 6s;
-  background: url(https://i.imgur.com/9tteNrq.jpg) no-repeat center center;
+  background: url('https://i.imgur.com/9tteNrq.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -126,19 +139,31 @@ figure {
   -o-animation-delay: 12s;
   -moz--animation-delay: 12s;
   -webkit-animation-delay: 12s;
-  background: url(https://i.imgur.com/8E6nmaq.png) no-repeat center center;
+  background: url('https://i.imgur.com/FQWrWiX.png') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+/* .pic-3 {
+  animation-delay: 12s;
+  -o-animation-delay: 12s;
+  -moz--animation-delay: 12s;
+  -webkit-animation-delay: 12s;
+  background: url(https://i.imgur.com/8E6nmaq.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
 .pic-4 {
   animation-delay: 18s;
   -o-animation-delay: 18s;
   -moz--animation-delay: 18s;
   -webkit-animation-delay: 18s;
-  background: url(https://i.imgur.com/twq2tkJ.jpg) no-repeat center center;
+  background: url('https://i.imgur.com/twq2tkJ.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -211,27 +236,47 @@ slideShow {  0% {
 }
 }
  @-webkit-keyframes 
-slideShow {  0% {
- opacity: 0;
- -webkit-transform:scale(1);
-}
- 5% {
- opacity: 1
-}
- 25% {
- opacity: 1;
-}
- 30% {
- opacity: 0;
- -webkit-transform:scale(1.1);
-}
- 100% {
- opacity: 0;
- -webkit-transformm:scale(1);
-}
+slideShow {  
+    0% {
+  opacity: 0;
+  -webkit-transform:scale(1);
+  }
+  5% {
+  opacity: 1
+  }
+  25% {
+  opacity: 1;
+  }
+  30% {
+  opacity: 0;
+  -webkit-transform:scale(1.1);
+  }
+  100% {
+  opacity: 0;
+  -webkit-transformm:scale(1);
+  }
 }
 
 .test {
   margin-top: 300px;
   position: relative;
 }
+
+
+/* header {
+  background-color: burlywood;
+  background: url(https://i.imgur.com/9tteNrq.jpg) no-repeat center center;
+  width: 100%;
+  height: 400px;
+} */
+
+  header.header-wrapper {
+	background: url('https://i.imgur.com/9tteNrq.jpg') 50% 0;
+ 	/* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
