@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Lato', sans-serif;
+  color:rgb(73, 71, 71);
+}
+
 /* ****** logo ****** */
 
 .logo-wrapper {
@@ -132,6 +137,8 @@ figure {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: rgba(155, 219, 166, 0.5);
+  background-blend-mode: multiply;
 }
 
 .pic-3 {
@@ -257,12 +264,6 @@ slideShow {
   }
 }
 
-.test {
-  margin-top: 300px;
-  position: relative;
-}
-
-
 /* header {
   background-color: burlywood;
   background: url(https://i.imgur.com/9tteNrq.jpg) no-repeat center center;
@@ -278,5 +279,34 @@ slideShow {
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
+  color: rgb(255,255,255);
+  /* background-color: rgba(200,100,0,0.5); */
+  /* background-color: rgba(0,0,0,0.2); */
+  background-blend-mode: multiply;
 }
+
+.heading-text {
+  margin: auto;
+  max-height: 100px;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: auto;
+  background: rgba(241, 175, 87, 0.5);
+  /* background-color: rgba(250, 235, 215, 0.2) */
+}
+
+h1.heading {
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+p.heading-paragraph {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
 
