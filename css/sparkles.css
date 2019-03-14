@@ -47,6 +47,8 @@ hr.logo-line {
 
 #mainNavbar {
   z-index: 3;
+  height: 80px;
+  border-bottom: solid 1px rgb(218, 210, 210);
 }
 #mainNavbar ul {
   /* display: block; */
@@ -84,7 +86,8 @@ hr.logo-line {
 }
 
 .navbar.scrolled {
-  background: rgba(236, 149, 35, 0.5);
+  background: rgba(218, 210, 210, 0.8);
+  /* color: rgb(41, 37, 37); */
   transition: background 500ms;
 }
 
@@ -300,13 +303,21 @@ p.heading-paragraph {
   letter-spacing: -0.2px;
 }
 
-/* ****** profile ****** */
+/* *********************  PROFILE  ********************* */
 
 #about {
   position: relative;
   background-color: rgb(255,255,255);
   z-index: 2;
 }
+
+#about p.text-large {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* *********************  ABOUT  ********************* */
 
 /* #featured {
   color: rgb(255,255,255);
@@ -382,9 +393,30 @@ p.heading-paragraph {
   border: 1px solid rgb(255,255,255) !important;
 }
 
+/* *********************  TESTIMONIAL  ********************* */
+
 .testimonials {
   height: 400px;
+  margin: 5px;
 }
+
+section.testimonials h2{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(0,0,0);
+}
+
+.clients-testimony p {
+  font-size: 1.2rem;
+}
+.clients-testimony p:nth-child(2) {
+  font-size: 1rem;
+}
+.clients-testimony p:last-child {
+  font-size: 0.8rem;
+}
+
 
 /* --------- MEDIA QUERY ---------- */
 
