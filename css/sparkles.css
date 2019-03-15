@@ -66,7 +66,7 @@ hr.logo-line {
 }
 
 #mainNavbar .nav-link {
-  color: white;
+  color: rgb(255,255,255);
 }
 
 #mainNavbar .nav-link:hover {
@@ -79,16 +79,26 @@ hr.logo-line {
 } */
 
 #mainNavbar li.dropdown .dropdown-menu{
-  background-color: dimgrey;
+  background-color: rgb(105, 105, 105);
 }
 #mainNavbar li.dropdown .dropdown-menu a.dropdown-item :hover{
-  background-color: dimgrey;
+  background-color: rgb(105, 105, 105);
 }
 
 .navbar.scrolled {
-  background: rgba(218, 210, 210, 0.8);
-  /* color: rgb(41, 37, 37); */
+  background: rgb(255,255,255);
   transition: background 500ms;
+}
+
+
+.nav-link.scrollLink {
+    color: rgb(105, 105, 105) !important; /* dimgrey */
+}
+
+.one-edge-shadow {
+	-webkit-box-shadow: 0 5px 6px -6px rgb(105, 105, 105);
+	   -moz-box-shadow: 0 5px 6px -6px rgb(105, 105, 105);
+	        box-shadow: 0 5px 6px -6px rgb(105, 105, 105);
 }
 
 /* ****** hero ****** */
