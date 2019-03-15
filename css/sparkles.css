@@ -86,13 +86,16 @@ hr.logo-line {
 }
 
 .navbar.scrolled {
-  background: rgb(255,255,255);
+  /* background: rgb(255,255,255); */
+  background-color: bisque;
   transition: background 500ms;
 }
 
 
 .nav-link.scrollLink {
-    color: rgb(105, 105, 105) !important; /* dimgrey */
+  /* dimgrey */
+    color: rgb(105, 105, 105) !important; 
+    /* font-weight: 600; */
 }
 
 .one-edge-shadow {
@@ -445,7 +448,7 @@ hr.style-two {
 /* *********************  TESTIMONIAL  ********************* */
 
 .testimonials {
-  height: 400px;
+  /* height: 400px; */
   margin: 5px;
 }
 
@@ -466,7 +469,25 @@ section.testimonials h2{
   font-size: 0.8rem;
 }
 
+footer.footer {
+ background-color: bisque;
+}
 
+footer a {
+  color: rgb(0,0,0);
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer .fab {
+  font-size: 22px;
+}
+
+.verticalLine {
+  border-left: 1px solid rgb(102, 99, 99);
+}
 
 
 /* --------- MEDIA QUERY ---------- */
@@ -476,4 +497,43 @@ section.testimonials h2{
     margin-top: 22%;
   }
 }
+
+@media (max-width: 768px) {
+  .verticalLineTop {
+    /* border-top: 1px solid rgb(102, 99, 99); */
+    border-bottom: 1px solid rgb(102, 99, 99);
+  }  
+
+  .verticalLine {
+    border-left: transparent;
+    border-bottom: 1px solid rgb(102, 99, 99);
+  }  
+
+  .verticalLineBottom {
+    border-bottom: 1px solid transparent;
+  }
+
+  .clients-testimony p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .quote {
+    font-size: 1.2rem;
+    letter-spacing: .6px;
+    line-height: 2rem;
+  }
+
+  .quote-author {
+    font-size: .7rem;
+  }
+
+  section.testimonials h2{
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+
+}
+
 
