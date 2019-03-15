@@ -272,7 +272,7 @@ slideShow {
   }
 }
 
-header.header-wrapper {
+section.heading-wrapper {
 	background: url('https://i.imgur.com/9tteNrq.jpg') 50% 0;
  	/* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -311,6 +311,17 @@ p.heading-paragraph {
   font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: -0.2px;
+}
+
+.quote {
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  line-height: 3.5rem;
+  font-weight: 300;
+}
+
+.quote-author {
+  
 }
 
 /* *********************  PROFILE  ********************* */
@@ -426,6 +437,8 @@ section.testimonials h2{
 .clients-testimony p:last-child {
   font-size: 0.8rem;
 }
+
+
 
 
 /* --------- MEDIA QUERY ---------- */
