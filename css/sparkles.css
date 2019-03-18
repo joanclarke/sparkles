@@ -86,8 +86,8 @@ hr.logo-line {
 }
 
 .navbar.scrolled {
-  /* background: rgb(255,255,255); */
-  background-color: bisque;
+  background: rgb(255,255,255);
+  /* background-color: bisque; */
   transition: background 500ms;
 }
 
