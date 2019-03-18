@@ -470,15 +470,37 @@ section.testimonials h2{
 }
 
 footer.footer {
- background-color: bisque;
+ /* background-color: bisque; */
+ background-color: rgb(85, 78, 78);
+ color: rgb(255,255,255);
 }
 
 footer a {
-  color: rgb(0,0,0);
+  color: rgb(255,255,255);
+}
+
+footer p a.email:hover, footer p a.policy:hover  {
+  text-decoration: underline;
 }
 
 footer ul li {
   display: inline-block;
+}
+
+footer .fab.fa-twitter:hover{
+  color: rgb(56,161,243);
+}
+
+footer .fab.fa-instagram:hover{
+  color: rgb(188, 42, 141);
+}
+
+footer .fab.fa-facebook-f:hover{
+  color: rgb(66,103,178);
+}
+
+footer .fab.fa-pinterest:hover{
+  color: rgb(189,8,28);
 }
 
 footer .fab {
