@@ -275,17 +275,26 @@ slideShow {
   }
 }
 
+/* **********************************************************************
+                                PROFILE PAGE  
+  ********************************************************************** */
+
 section.heading-wrapper {
-	background: url('https://i.imgur.com/9tteNrq.jpg') 50% 0;
  	/* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 400px;
   color: rgb(255,255,255);
   /* background-color: rgba(200,100,0,0.5); */
   /* background-color: rgba(0,0,0,0.2); */
+  /* background-color: rgba(0,0,0,0.3);
+  background-blend-mode: multiply; */
+}
+
+#about-header-wrapper {
+  background: url('https://i.imgur.com/9tteNrq.jpg') 50% 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: rgba(0,0,0,0.3);
   background-blend-mode: multiply;
 }
@@ -452,7 +461,7 @@ hr.style-two {
   margin: 5px;
 }
 
-section.testimonials h2{
+section.testimonials h2, section#our-team h2{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2rem;
   font-weight: 700;
@@ -487,12 +496,21 @@ footer ul li {
   display: inline-block;
 }
 
+
+footer .fab {
+  font-size: 22px;
+}
+
 footer .fab.fa-twitter:hover{
   color: rgb(56,161,243);
 }
 
 footer .fab.fa-instagram:hover{
   color: rgb(188, 42, 141);
+}
+
+footer .fab.fa-youtube:hover{
+  color: rgb(196, 48, 43);
 }
 
 footer .fab.fa-facebook-f:hover{
@@ -503,14 +521,89 @@ footer .fab.fa-pinterest:hover{
   color: rgb(189,8,28);
 }
 
-footer .fab {
-  font-size: 22px;
-}
-
 .verticalLine {
   border-left: 1px solid rgb(102, 99, 99);
 }
 
+
+/* **********************************************************************
+                                TEAM PAGE  
+  ********************************************************************** */
+
+#team-header-wrapper {
+  background: url('https://i.imgur.com/kNKrfad.jpg') 50% 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: multiply;
+}
+
+/* #our-team {
+  height: auto;
+} */
+
+.team-pic {
+  background: url('https://i.imgur.com/OSCAKJb.jpg') 50% 0;
+  height: 600px;
+}
+
+#our-team p{
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+#team-members-container {
+  background-color: rgb(245, 245, 220); /*beige */
+}
+
+.team-member {
+  padding-top: 200px;
+  height: 450px;
+}
+
+.team-member-detail {
+  font-weight: 100;
+  font-size: 0.7rem;
+}
+
+.member-1 {
+  background: url('https://i.imgur.com/ZJJiBMY.jpg') 50% 0;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: multiply;
+}
+
+.member-2 {
+  background: url('https://i.imgur.com/kwbGaRP.jpg') 50% 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: multiply;
+}
+
+.member-3 {
+  background: url('https://i.imgur.com/KeaEsH4.jpg') 50% 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: multiply;
+}
+
+.member-4 {
+  background: url('https://i.imgur.com/eJ7enap.jpg') 50% 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: multiply;
+}
 
 /* --------- MEDIA QUERY ---------- */
 
@@ -538,6 +631,14 @@ footer .fab {
   .clients-testimony p {
     font-size: 1rem;
   }
+
+  .team-pic {
+    height: 400px;
+  }
+
+  .team-member {
+    height: 400px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -554,6 +655,10 @@ footer .fab {
   section.testimonials h2{
     font-size: 1.7rem;
     font-weight: 700;
+  }
+
+  .team-member-detail {
+    display: none;
   }
 
 }
