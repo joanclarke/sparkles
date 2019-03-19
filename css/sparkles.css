@@ -79,10 +79,20 @@ hr.logo-line {
 } */
 
 #mainNavbar li.dropdown .dropdown-menu{
-  background-color: rgb(105, 105, 105);
+  background-color: rgba(255, 255, 255, 0.9);
+  /* color:rgb(255, 255, 255); */
+  border-radius: 0;
 }
+
+#mainNavbar li.dropdown .dropdown-menu a.dropdown-item {
+  color: rgb(105, 105, 105);
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
 #mainNavbar li.dropdown .dropdown-menu a.dropdown-item :hover{
-  background-color: rgb(105, 105, 105);
+  background-color: rgb(105, 105, 105) !important;
+  color:rgb(255, 255, 255);
 }
 
 .navbar.scrolled {
