@@ -20,6 +20,20 @@ body {
   color:rgb(73, 71, 71);
 }
 
+p {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.h2-headings {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(0,0,0);
+}
+
+
+
 /* ****** logo ****** */
 
 .logo-wrapper {
@@ -49,27 +63,21 @@ hr.logo-line {
   z-index: 3;
   height: 80px;
   border-bottom: solid 1px rgb(218, 210, 210);
+  font-size: 0.85rem;
+  font-weight: 100;  
 }
+
 #mainNavbar ul {
   /* display: block; */
   margin: 0px auto;
 }
 
-#mainNavbar ul li a{
+#mainNavbar ul li a.nav-link {
   color: rgb(255,255,255);
   letter-spacing: 4px;
 }
 
-#mainNavbar {
-  font-size: 0.85rem;
-  font-weight: 100;    
-}
-
-#mainNavbar .nav-link {
-  color: rgb(255,255,255);
-}
-
-#mainNavbar .nav-link:hover {
+#mainNavbar ul li a.nav-link:hover {
   color: #EA1C2C;
 }
 
@@ -485,12 +493,12 @@ hr.style-two {
   margin: 5px;
 }
 
-section.testimonials h2, section#our-team h2{
+/* section.testimonials h2, section#our-team h2{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2rem;
   font-weight: 700;
   color: rgb(0,0,0);
-}
+} */
 
 .clients-testimony p {
   font-size: 1.2rem;
@@ -564,6 +572,16 @@ footer .fab.fa-pinterest:hover{
   background-blend-mode: multiply;
 }
 
+#services-header-wrapper {
+  background: url('https://i.imgur.com/Xe1bbX6.jpg') 50% 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: multiply;
+}
+
 /* #our-team {
   height: auto;
 } */
@@ -573,10 +591,10 @@ footer .fab.fa-pinterest:hover{
   height: 600px;
 }
 
-#our-team p{
+/* #our-team p{
   font-size: 1.2rem;
   font-weight: 100;
-}
+} */
 
 #team-members-container {
   background-color: rgb(245, 245, 220); /*beige */
@@ -593,7 +611,7 @@ footer .fab.fa-pinterest:hover{
 }
 
 .member-1 {
-  background: url('https://i.imgur.com/ZJJiBMY.jpg') 50% 0;
+  background: url('https://i.imgur.com/7sCHqVV.jpg') 50% 0;
   /* background-attachment: fixed; */
   background-position: center;
   background-repeat: no-repeat;
@@ -621,7 +639,7 @@ footer .fab.fa-pinterest:hover{
 }
 
 .member-4 {
-  background: url('https://i.imgur.com/eJ7enap.jpg') 50% 0;
+  background: url('https://i.imgur.com/Z4fq4e9.jpg') 50% 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -629,11 +647,50 @@ footer .fab.fa-pinterest:hover{
   background-blend-mode: multiply;
 }
 
+
+/* **********************************************************************
+                                SERVICES PAGE  
+  ********************************************************************** */
+
+  .banner {
+    background-color: rgb(85, 78, 78);
+  }
+
+  .banner a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6rem;
+  }
+
+  .small-image {
+    background: url('https://i.imgur.com/aHe1gn7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding-top: 155px;
+  }
+
+  .small-image p{
+    background-color: rgba(189,8,28, 0.4);
+  }
+
 /* --------- MEDIA QUERY ---------- */
 
 @media (max-width: 992px) {
   .heading-text {
     margin-top: 22%;
+  }
+
+  #mainNavbar {
+    background-color: transparent;
+  }
+
+  #mainNavbar ul li {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  #mainNavbar ul li:hover {
+    background-color: rgb(255, 255, 255);
   }
 }
 
@@ -683,6 +740,12 @@ footer .fab.fa-pinterest:hover{
 
   .team-member-detail {
     display: none;
+  }
+
+
+  .banner a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3rem;
   }
 
 }
