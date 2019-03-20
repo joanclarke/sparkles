@@ -32,6 +32,13 @@ p {
   color: rgb(0,0,0);
 }
 
+.h3-headings {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgb(0,0,0);
+}
+
 
 
 /* ****** logo ****** */
@@ -674,6 +681,23 @@ footer .fab.fa-pinterest:hover{
     background-color: rgba(189,8,28, 0.4);
   }
 
+  .border-color {
+    border: solid 3px rgba(189,8,28, 0.4);
+  }
+
+  #services-selection {
+    background-color: rgba(206, 198, 198, 0.1);
+  }
+
+  #services-selection p {
+    font-size: 1rem;
+  }
+  
+  #services-selection ul li{
+    font-size: 0.85rem;
+    font-weight: 100;
+  }
+
 /* --------- MEDIA QUERY ---------- */
 
 @media (max-width: 992px) {
@@ -683,6 +707,13 @@ footer .fab.fa-pinterest:hover{
 
   #mainNavbar {
     background-color: transparent;
+    border-bottom: solid 1px transparent;
+  }
+
+  .one-edge-shadow {
+    -webkit-box-shadow: 0 5px 6px -6px transparent;
+       -moz-box-shadow: 0 5px 6px -6px transparent;
+            box-shadow: 0 5px 6px -6px transparent;
   }
 
   #mainNavbar ul li {
