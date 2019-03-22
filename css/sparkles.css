@@ -39,7 +39,10 @@ p {
   color: rgb(0,0,0);
 }
 
-
+h5 {
+  font-size: 1rem;
+  font-weight: 200;
+}
 
 
 /* **********************************************************************
@@ -721,6 +724,47 @@ footer .fab.fa-pinterest:hover{
     background-color: rgba(0,0,0,0.3);
     background-blend-mode: multiply;
   }
+
+  h2.portfolio-headings {
+    border-bottom: 1px solid rgb(241, 241, 241); 
+    padding-bottom: 20px; 
+    width: 30%;
+    margin-left: 35%;
+    /* text-align: center; */
+  }
+
+  #weddings p {
+    padding-top: 20px; 
+    font-size: 1rem;
+    letter-spacing: 0.3rem;
+  }
+
+ .portfolio-img {
+    height: 280px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+.icon-content {
+    position: relative;
+    z-index: 2;
+    margin-top: -45%;
+    margin-bottom: 45%;
+    text-align: center;
+    }
+
+ .fa-plus {
+    color: red;
+    font-size: 2.5rem;
+    }
+
+  /* #weddings img:hover {
+      background-color: rgba(0, 0, 0, 0.5);
+    } */
+    
+  /* *********************  WEDDINGS  ********************* */
+
+
 
 
 /* --------- MEDIA QUERY ---------- */
