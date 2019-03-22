@@ -41,30 +41,11 @@ p {
 
 
 
-/* ****** logo ****** */
 
-.logo-wrapper {
-  background-color: transparent;
-  position: relative;
-  z-index: 2;
-}
+/* **********************************************************************
+                                NAVBAR PAGE  
+  ********************************************************************** */
 
-.logo-holder {
-  width: 100%;
-}
-
-.logo img {
-  width: 100% \ 9;
-  height: auto;
-}
-
-hr.logo-line {
-  z-index: 2;
-  position: relative;
-  background-color: rgba(250, 235, 215, 0.5)
-}
-
-/* ****** nav ****** */
 
 #mainNavbar {
   z-index: 3;
@@ -88,14 +69,8 @@ hr.logo-line {
   color: #EA1C2C;
 }
 
-/* #mainNavbar .navbar-brand {
-  color: #EA1C2C;
-  font-size: 1.5rem;
-} */
-
 #mainNavbar li.dropdown .dropdown-menu{
   background-color: rgba(255, 255, 255, 0.9);
-  /* color:rgb(255, 255, 255); */
   border-radius: 0;
 }
 
@@ -120,7 +95,6 @@ hr.logo-line {
 .nav-link.scrollLink {
   /* dimgrey */
     color: rgb(105, 105, 105) !important; 
-    /* font-weight: 600; */
 }
 
 .one-edge-shadow {
@@ -138,15 +112,42 @@ hr.logo-line {
   margin-top: -200px;
 }
 
-/* ****** hero ****** */
+
+/* **********************************************************************
+                                HOME PAGE  
+  ********************************************************************** */
+
+
+/* *************** LOGO ************** */
+
+.logo-wrapper {
+  background-color: transparent;
+  position: relative;
+  z-index: 2;
+}
+
+.logo-holder {
+  width: 100%;
+}
+
+.logo img {
+  width: 100% \ 9;
+  height: auto;
+}
+
+hr.logo-line {
+  z-index: 2;
+  position: relative;
+  background-color: rgba(250, 235, 215, 0.5)
+}
+
+/* *************** HOME ************** */
 
 .pic-wrapper {
-  /* position: absolute; */
   width: 100%;
   height: 100%;
   overflow: hidden;
   z-index: 1;
-  /* margin-top: 0px; */
 }
 
 figure {
@@ -191,11 +192,9 @@ figure {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /* background-color: rgba(155, 219, 166, 0.5); */
   background-color: rgba(189, 157, 70, 0.5);
   background-blend-mode: multiply;
 }
-
 
 .pic-3 {
   animation-delay: 12s;
@@ -327,6 +326,7 @@ slideShow {
                                 PROFILE PAGE  
   ********************************************************************** */
 
+
 section.heading-wrapper {
  	/* Create the parallax scrolling effect */
   height: 400px;
@@ -380,10 +380,6 @@ p.heading-paragraph {
   font-weight: 300;
 }
 
-.quote-author {
-
-}
-
 /* Glyph, by Harry Roberts */
   /* 
 hr.style-eight {
@@ -412,7 +408,7 @@ hr.style-two {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-/* *********************  PROFILE  ********************* */
+/* *********************  ABOUT  ********************* */
 
 #about {
   position: relative;
@@ -425,8 +421,6 @@ hr.style-two {
   font-size: 2rem;
   font-weight: 600;
 }
-
-/* *********************  ABOUT  ********************* */
 
 /* #featured {
   color: rgb(255,255,255);
@@ -525,6 +519,12 @@ hr.style-two {
 .clients-testimony p:last-child {
   font-size: 0.8rem;
 }
+
+
+/* **********************************************************************
+                                FOOTER 
+  ********************************************************************** */
+
 
 footer.footer {
  /* background-color: bisque; */
@@ -706,6 +706,22 @@ footer .fab.fa-pinterest:hover{
     font-size: 0.85rem;
     font-weight: 100;
   }
+
+  /* **********************************************************************
+                                PORTFOLIO PAGE  
+  ********************************************************************** */
+
+
+  #porfolio-header-wrapper {
+    background: url('https://i.imgur.com/R0RM5fh.jpg') 50% 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: multiply;
+  }
+
 
 /* --------- MEDIA QUERY ---------- */
 
