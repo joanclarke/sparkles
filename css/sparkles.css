@@ -129,6 +129,15 @@ hr.logo-line {
 	        box-shadow: 0 5px 6px -6px rgb(105, 105, 105);
 }
 
+.navbar-toggler {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: rgba(0, 0, 0, 0.3);
+}
+
+.home-page-toggler.navbar-toggler {
+  margin-top: -200px;
+}
+
 /* ****** hero ****** */
 
 .pic-wrapper {
