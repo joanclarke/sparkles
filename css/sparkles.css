@@ -726,7 +726,7 @@ footer .fab.fa-pinterest:hover{
     position: relative;
     z-index: 2;
     margin-top: -45%;
-    margin-bottom: 45%;
+    margin-bottom: 40%;
     text-align: center;
   }
 
@@ -781,6 +781,12 @@ footer .fab.fa-pinterest:hover{
   #mainNavbar ul li:hover {
     background-color: rgb(255, 255, 255);
   }
+
+  .icon-content {
+    margin-top: -79%;
+    margin-bottom: 75%;
+    text-align: center;
+  }
 }
 
 /* ****** max-width: 768px ****** */
@@ -811,6 +817,11 @@ footer .fab.fa-pinterest:hover{
   .team-member {
     height: 400px;
   }
+
+  .hide-show-images {
+    display: none;
+  }
+
 }
 
 /* ****** max-width: 576px ****** */
@@ -838,6 +849,12 @@ footer .fab.fa-pinterest:hover{
   .banner a {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.3rem;
+  }
+
+  .icon-content {
+    margin-top: -35%;
+    margin-bottom: 32%;
+    text-align: center;
   }
 
 }
