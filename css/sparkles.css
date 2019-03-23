@@ -14,7 +14,6 @@ a:hover {
   color: rgb(255,255,255);
 }
 
-
 body {
   font-family: 'Lato', sans-serif;
   color:rgb(73, 71, 71);
@@ -69,7 +68,9 @@ h5 {
 }
 
 #mainNavbar ul li a.nav-link:hover {
-  color: #EA1C2C;
+  /* color: #EA1C2C; */
+  color: rgb(238, 203, 173);
+  font-weight: bold;
 }
 
 #mainNavbar li.dropdown .dropdown-menu{
@@ -93,7 +94,6 @@ h5 {
   /* background-color: bisque; */
   transition: background 500ms;
 }
-
 
 .nav-link.scrollLink {
   /* dimgrey */
@@ -190,7 +190,7 @@ figure {
   -o-animation-delay: 6s;
   -moz--animation-delay: 6s;
   -webkit-animation-delay: 6s;
-  background: url('https://i.imgur.com/QY56kgA.jpg') no-repeat center center;
+  background: url('https://i.imgur.com/UeADSWs.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -325,19 +325,15 @@ slideShow {
   }
 }
 
+
 /* **********************************************************************
                                 PROFILE PAGE  
   ********************************************************************** */
 
 
 section.heading-wrapper {
- 	/* Create the parallax scrolling effect */
   height: 400px;
   color: rgb(255,255,255);
-  /* background-color: rgba(200,100,0,0.5); */
-  /* background-color: rgba(0,0,0,0.2); */
-  /* background-color: rgba(0,0,0,0.3);
-  background-blend-mode: multiply; */
 }
 
 #about-header-wrapper {
@@ -352,16 +348,12 @@ section.heading-wrapper {
 
 .heading-text {
   margin-top: 15%;
-  /* max-height: 100px; */
-  /* max-width: 100%; */
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   overflow: auto;
-  /* background: rgba(241, 175, 87, 0.5); */
-  /* background-color: rgba(250, 235, 215, 0.2) */
 }
 
 h1.heading {
@@ -502,16 +494,8 @@ hr.style-two {
 /* *********************  TESTIMONIAL  ********************* */
 
 .testimonials {
-  /* height: 400px; */
   margin: 5px;
 }
-
-/* section.testimonials h2, section#our-team h2{
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 2rem;
-  font-weight: 700;
-  color: rgb(0,0,0);
-} */
 
 .clients-testimony p {
   font-size: 1.2rem;
@@ -531,8 +515,8 @@ hr.style-two {
 
 footer.footer {
  /* background-color: bisque; */
- background-color: rgb(85, 78, 78);
- color: rgb(255,255,255);
+  background-color: rgb(85, 78, 78);
+  color: rgb(255,255,255);
 }
 
 footer a {
@@ -546,7 +530,6 @@ footer p a.email:hover, footer p a.policy:hover  {
 footer ul li {
   display: inline-block;
 }
-
 
 footer .fab {
   font-size: 22px;
@@ -581,6 +564,7 @@ footer .fab.fa-pinterest:hover{
                                 TEAM PAGE  
   ********************************************************************** */
 
+
 #team-header-wrapper {
   background: url('https://i.imgur.com/kNKrfad.jpg') 50% 0;
   background-attachment: fixed;
@@ -591,29 +575,10 @@ footer .fab.fa-pinterest:hover{
   background-blend-mode: multiply;
 }
 
-#services-header-wrapper {
-  background: url('https://i.imgur.com/Xe1bbX6.jpg') 50% 0;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: rgba(0,0,0,0.3);
-  background-blend-mode: multiply;
-}
-
-/* #our-team {
-  height: auto;
-} */
-
 .team-pic {
   background: url('https://i.imgur.com/OSCAKJb.jpg') 50% 0;
   height: 600px;
 }
-
-/* #our-team p{
-  font-size: 1.2rem;
-  font-weight: 100;
-} */
 
 #team-members-container {
   background-color: rgb(245, 245, 220); /*beige */
@@ -671,6 +636,17 @@ footer .fab.fa-pinterest:hover{
                                 SERVICES PAGE  
   ********************************************************************** */
 
+
+  #services-header-wrapper {
+    background: url('https://i.imgur.com/Xe1bbX6.jpg') 50% 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: multiply;
+  }
+  
   .banner {
     background-color: rgb(85, 78, 78);
   }
@@ -709,6 +685,7 @@ footer .fab.fa-pinterest:hover{
     font-size: 0.85rem;
     font-weight: 100;
   }
+
 
   /* **********************************************************************
                                 PORTFOLIO PAGE  
@@ -751,18 +728,13 @@ footer .fab.fa-pinterest:hover{
     margin-top: -45%;
     margin-bottom: 45%;
     text-align: center;
-    }
+  }
 
  .fa-plus {
     color: red;
     font-size: 2.5rem;
-    }
+  }
 
-
-  /* #weddings img:hover {
-      background-color: rgba(0, 0, 0, 0.5);
-    } */
-    
   /* *********************  WEDDINGS  ********************* */
 
   .portfolio .featured-buttons {
@@ -780,8 +752,11 @@ footer .fab.fa-pinterest:hover{
   }
   
 
+  /* **********************************************************************
+                                MEDIA QUERY 
+  ********************************************************************** */
 
-/* --------- MEDIA QUERY ---------- */
+/* ****** max-width: 992px ****** */
 
 @media (max-width: 992px) {
   .heading-text {
@@ -807,6 +782,8 @@ footer .fab.fa-pinterest:hover{
     background-color: rgb(255, 255, 255);
   }
 }
+
+/* ****** max-width: 768px ****** */
 
 @media (max-width: 768px) {
   .verticalLineTop {
@@ -836,6 +813,8 @@ footer .fab.fa-pinterest:hover{
   }
 }
 
+/* ****** max-width: 576px ****** */
+
 @media (max-width: 576px) {
   .quote {
     font-size: 1.2rem;
@@ -855,7 +834,6 @@ footer .fab.fa-pinterest:hover{
   .team-member-detail {
     display: none;
   }
-
 
   .banner a {
     font-family: 'Josefin Sans', sans-serif;
