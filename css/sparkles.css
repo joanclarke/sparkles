@@ -765,6 +765,16 @@ footer .fab.fa-pinterest:hover{
     background-blend-mode: multiply;
   }
 
+
+  .contact-pic {
+    background: url('https://i.imgur.com/3LoHa6z.jpg') 50% 0;
+    height: 600px;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
   /* **********************************************************************
                                 MEDIA QUERY 
   ********************************************************************** */
@@ -823,7 +833,7 @@ footer .fab.fa-pinterest:hover{
     font-size: 1rem;
   }
 
-  .team-pic {
+  .team-pic,  .contact-pic {
     height: 400px;
   }
 
