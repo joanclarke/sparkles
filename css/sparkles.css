@@ -751,6 +751,19 @@ footer .fab.fa-pinterest:hover{
     color: rgb(255, 255, 255) !important;
   }
   
+  /* **********************************************************************
+                                CONTACT PAGE  
+  ********************************************************************** */
+
+  #contact-header-wrapper {
+    background: url('https://i.imgur.com/Co7hWhv.jpg') 50% 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: multiply;
+  }
 
   /* **********************************************************************
                                 MEDIA QUERY 
@@ -820,6 +833,10 @@ footer .fab.fa-pinterest:hover{
 
   .hide-show-images {
     display: none;
+  }
+
+  .portfolio-inner-div {
+    
   }
 
 }
