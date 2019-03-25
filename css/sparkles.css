@@ -790,6 +790,14 @@ footer .fab.fa-pinterest:hover{
     display: block;
   }
 
+  #contact form button{
+    display: block;
+  }
+
+  a.download-here {
+    font-size: 0.8rem !important;
+  }
+
   /* **********************************************************************
                                 MEDIA QUERY 
   ********************************************************************** */
