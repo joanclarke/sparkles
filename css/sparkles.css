@@ -417,6 +417,10 @@ hr.style-two {
   font-weight: 600;
 }
 
+.quote-author {
+  font-size: 0.8rem
+}
+
 /* #featured {
   color: rgb(255,255,255);
   position: relative;
@@ -788,6 +792,10 @@ footer .fab.fa-pinterest:hover{
     font-weight: 200;
     font-size: 1.3rem;
     display: block;
+  }
+
+  #contact a:hover {
+    text-decoration-line: underline;
   }
 
   #contact form button{
