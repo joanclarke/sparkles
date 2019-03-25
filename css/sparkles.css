@@ -765,15 +765,30 @@ footer .fab.fa-pinterest:hover{
     background-blend-mode: multiply;
   }
 
-
   .contact-pic {
     background: url('https://i.imgur.com/3LoHa6z.jpg') 50% 0;
     height: 600px;
-     background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
+  #contact p {
+    font-weight: 500;
+    /* font-size: 1.3rem; */
+  }
+
+  #contact p:nth-child(4) {
+    font-weight: 100;
+    /* font-size: 1.3rem; */
+  }
+
+  #contact a {
+    color:rgb(73, 71, 71);
+    font-weight: 200;
+    font-size: 1.3rem;
+    display: block;
+  }
 
   /* **********************************************************************
                                 MEDIA QUERY 
@@ -843,10 +858,6 @@ footer .fab.fa-pinterest:hover{
 
   .hide-show-images {
     display: none;
-  }
-
-  .portfolio-inner-div {
-    
   }
 
 }
