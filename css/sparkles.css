@@ -641,7 +641,7 @@ footer .fab.fa-pinterest:hover{
   ********************************************************************** */
 
 
-  #services-header-wrapper {
+#services-header-wrapper {
     background: url('https://i.imgur.com/Xe1bbX6.jpg') 50% 0;
     background-attachment: fixed;
     background-position: center;
@@ -713,6 +713,47 @@ footer .fab.fa-pinterest:hover{
     margin-left: 35%;
     /* text-align: center; */
   }
+
+.gallery-bg {
+  border-radius: 50%;
+  background-color: bisque;
+  width: 100%;
+  height: 400px;
+}
+
+.gallery-bg-wedding {
+  background: url('https://i.imgur.com/twq2tkJ.jpg') 50% 0;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: multiply;
+}
+
+.gallery-bg-social {
+  background: url('https://i.imgur.com/CiXd4f6.jpg') 50% 0;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: multiply;
+}
+
+.gallery-bg-corporate{
+  background: url('https://i.imgur.com/zerRdJv.jpg') 50% 0;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: multiply;
+}
+.gallery-bg a.gallery-title{
+  /* margin: auto; */
+  /* color: rgb(255, 255, 255); */
+}
 
   #weddings p {
     padding-top: 20px; 
