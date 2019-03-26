@@ -799,6 +799,12 @@ footer .fab.fa-pinterest:hover{
     font-size: 0.8rem !important;
   }
 
+.logo-rounded {
+  /* background-color: bisque; */
+  margin-top: 5%;
+}
+
+
   /* **********************************************************************
                                 MEDIA QUERY 
   ********************************************************************** */
