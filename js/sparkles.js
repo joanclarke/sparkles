@@ -10,54 +10,42 @@ $(function () {
 });
 
 
-
-// function toggleImgs() {
-//   var hideShowImages = document.getElementsByClassName("hide-show-images");
+// function toggle() {
+//   var hideShowDivs = document.getElementsByClassName("hide-show-divs");
 //   changeBtnText(); // Invoking changeBtnText added
-//   for(var i = 0; i < hideShowImages.length; i++){
-//     if (hideShowImages[i].style.display === "none") {
-//       hideShowImages[i].style.display = "block";
-//       changeBtnText();
+//   for(var i = 0; i < hideShowDivs.length; i++){
+//     if (hideShowDivs[i].style.display === "block") {
+//       hideShowDivs[i].style.display = "none";
+//       // changeBtnText();
 //     } else {
-//       hideShowImages[i].style.display = "none";
+//       hideShowDivs[i].style.display = "block";
 //     }
 //   }
 // }
 
-// function changeBtnText() {
-//   var hideShowImgBtn = document.getElementsByClassName("hide-show-img-btn");
-//   for(var i = 0; i < hideShowImgBtn.length; i++)
-//     if(hideShowImgBtn[i].innerText =="More Images") {
-//       hideShowImgBtn[i].innerText = "Less Images";
-//     }else {
-//       hideShowImgBtn[i].innerText = "More Images";
-//     }
-//   }
 
-
-  function toggleImgs() {
-    var hideShowImages = document.getElementsByClassName("hide-show-images");
-    changeBtnText(); // Invoking changeBtnText added
-    for(var i = 0; i < hideShowImages.length; i++){
-      if (hideShowImages[i].style.display === "none") {
-        hideShowImages[i].style.display = "block";
-        changeBtnText();
-      } else {
-        hideShowImages[i].style.display = "none";
-      }
+function toggle(divClass, divButton) {
+  var hideShowDivs = document.getElementsByClassName(divClass);
+  changeBtnText(divButton); // Invoking changeBtnText function
+  for(var i = 0; i < hideShowDivs.length; i++){
+    if (hideShowDivs[i].style.display === "block") {
+      hideShowDivs[i].style.display = "none";
+    } else {
+      hideShowDivs[i].style.display = "block";
     }
   }
-  
-  function changeBtnText() {
-    var hideShowImgBtn = document.getElementsByClassName("hide-show-img-btn");
-    for(var i = 0; i < hideShowImgBtn.length; i++)
-      // Using innerText instead of value
-      if(hideShowImgBtn[i].innerText =="More Images") {
-        hideShowImgBtn[i].innerText = "Less Images";
-      }else {
-        hideShowImgBtn[i].innerText = "More Images";
-      }
+}
+
+
+
+function changeBtnText(divButton) {
+  var hideShowImgBtn = document.getElementsByClassName(divButton);
+  for(var i = 0; i < hideShowImgBtn.length; i++)
+    // Using innerText instead of value
+    if(hideShowImgBtn[i].innerHTML =="Hide Images") {
+      hideShowImgBtn[i].innerHTML= "More Images";
+    }else {
+      hideShowImgBtn[i].innerHTML = "Hide Images";
     }
-
-
+  }
 
