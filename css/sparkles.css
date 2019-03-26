@@ -872,7 +872,7 @@ footer .fab.fa-pinterest:hover{
     height: 400px;
   }
 
-  .hide-show-divs {
+  .hide-show-divs, .hide-show-wedding-div, .hide-show-social-div, .hide-show-corporate-div {
     display: none;
   }
 

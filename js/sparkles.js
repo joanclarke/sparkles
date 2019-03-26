@@ -23,10 +23,10 @@ $(function () {
 //   }
 // }
 
-
-function toggle(divClass, divButton) {
+//The toggle() function hides/shows a div when the 'More Images' button is clicked
+function toggle(divClass, buttonClass) {
   var hideShowDivs = document.getElementsByClassName(divClass);
-  changeBtnText(divButton); // Invoking changeBtnText function
+  changeBtnText(buttonClass); // Invoke changeBtnText function
   for(var i = 0; i < hideShowDivs.length; i++){
     if (hideShowDivs[i].style.display === "block") {
       hideShowDivs[i].style.display = "none";
@@ -36,13 +36,12 @@ function toggle(divClass, divButton) {
   }
 }
 
-
-
-function changeBtnText(divButton) {
-  var hideShowImgBtn = document.getElementsByClassName(divButton);
+//The changeBtnText() function changes the value of a button when invoked
+function changeBtnText(buttonClass) {
+  var hideShowImgBtn = document.getElementsByClassName(buttonClass);
   for(var i = 0; i < hideShowImgBtn.length; i++)
-    // Using innerText instead of value
-    if(hideShowImgBtn[i].innerHTML =="Hide Images") {
+    // Use innerHTML to change value of button
+    if(hideShowImgBtn[i].innerHTML === "Hide Images") {
       hideShowImgBtn[i].innerHTML= "More Images";
     }else {
       hideShowImgBtn[i].innerHTML = "Hide Images";
