@@ -741,18 +741,11 @@ footer .fab.fa-pinterest:hover{
 
   /* *********************  WEDDINGS  ********************* */
 
-  .portfolio .featured-buttons {
+  .portfolio button {
     font-size: 0.8rem;
-    border: 1px solid rgb(85, 78, 78) !important;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-  }
-
-  .portfolio .featured-buttons:hover {
-    background-color: rgba(0, 0, 0, 0.5) !important;
-    border: 1px solid  transparent !important;
-    color: rgb(255, 255, 255) !important;
   }
   
   /* **********************************************************************
@@ -872,7 +865,13 @@ footer .fab.fa-pinterest:hover{
     height: 400px;
   }
 
-  .hide-show-divs, .hide-show-wedding-div, .hide-show-social-div, .hide-show-corporate-div {
+
+  h2.portfolio-headings {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .hide-show-divs {
     display: none;
   }
 

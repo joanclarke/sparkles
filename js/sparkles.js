@@ -1,5 +1,5 @@
 //navbar scroll funnction
-
+//the navbar scroll function will change the background-color of the navbar when the page is being scrolled
 $(function () {
   $(document).scroll(function () {
       var $nav = $("#mainNavbar");
@@ -8,20 +8,6 @@ $(function () {
       $navLink.toggleClass("scrollLink", $(this).scrollTop() > $navLink.height());
   });
 });
-
-
-// function toggle() {
-//   var hideShowDivs = document.getElementsByClassName("hide-show-divs");
-//   changeBtnText(); // Invoking changeBtnText added
-//   for(var i = 0; i < hideShowDivs.length; i++){
-//     if (hideShowDivs[i].style.display === "block") {
-//       hideShowDivs[i].style.display = "none";
-//       // changeBtnText();
-//     } else {
-//       hideShowDivs[i].style.display = "block";
-//     }
-//   }
-// }
 
 //The toggle() function hides/shows a div when the 'More Images' button is clicked
 function toggle(divClass, buttonClass) {
