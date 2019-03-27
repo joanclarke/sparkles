@@ -655,9 +655,13 @@ footer .fab.fa-pinterest:hover{
     background-color: rgb(85, 78, 78);
   }
 
-  .banner a {
+  .banner p {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.6rem;
+  }
+
+  .banner a {
+    font-weight: 100;
   }
 
   .small-image {
@@ -1009,7 +1013,7 @@ footer .fab.fa-pinterest:hover{
     display: none;
   }
 
-  .banner a {
+  .banner p {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.3rem;
   }
