@@ -45,7 +45,7 @@ h5 {
 
 
 /* **********************************************************************
-                                NAVBAR PAGE  
+                                NAVBAR
   ********************************************************************** */
 
 
@@ -98,20 +98,23 @@ h5 {
 }
 
 #mainNavbar li.dropdown .dropdown-menu{
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgb(0, 0, 0, 0.2);
   border-radius: 0;
 }
 
 #mainNavbar li.dropdown .dropdown-menu a.dropdown-item {
-  color: rgb(105, 105, 105);
+  /* color: rgb(105, 105, 105); */
   font-weight: 300;
   font-size: 0.8rem;
+  color: rgb(255, 255, 255);
 }
 
-#mainNavbar li.dropdown .dropdown-menu a.dropdown-item :hover{
-  background-color: rgb(105, 105, 105) !important;
-  color:rgb(255, 255, 255);
+#mainNavbar li.dropdown .dropdown-menu a.dropdown-item:hover{
+  background-color: rgb(0, 0, 0, 0.4);
+  color:rgb(255, 193, 7);
 }
+
+/* #mainNavbar li.dropdown .dropdown-menu a.dropdown-item */
 
 .navbar.scrolled {
   background: rgb(255,255,255);
