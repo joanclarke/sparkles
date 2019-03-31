@@ -627,6 +627,10 @@ footer p a.email:hover, footer p a.policy:hover  {
   text-decoration: underline;
 }
 
+footer p a.email:hover, footer p.phone :hover{
+  color: rgb(255, 193, 7);
+}
+
 footer ul li {
   display: inline-block;
 }
@@ -658,7 +662,6 @@ footer .fab.fa-pinterest:hover{
 .verticalLine {
   border-left: 1px solid rgb(102, 99, 99);
 }
-
 
 /* **********************************************************************
                                 TEAM PAGE  
