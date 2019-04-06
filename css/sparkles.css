@@ -171,6 +171,21 @@ hr.logo-line {
   background-color: rgba(250, 235, 215, 0.5)
 }
 
+
+.menu-logo img {
+  /* width: 100%; */
+  height: 2.8em;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin: 0 1rem 0 1rem;
+  /* line-height: inherit; */
+  white-space: nowrap;
+}
+
 /* *************** HOME ************** */
 
 .pic-wrapper {
