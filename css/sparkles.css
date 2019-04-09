@@ -416,6 +416,12 @@ p.heading-paragraph {
   line-height: 3.5rem;
   font-weight: 300;
 }
+ /* hr.hr-style { */
+  /* overflow: visible;*//*For IE */
+  /* border-top: medium solid lightgrey;
+  color: #333;
+  text-align: center;
+  }  */
 
 /* Glyph, by Harry Roberts */
   /* 
@@ -700,7 +706,8 @@ footer .fab.fa-pinterest:hover{
 
 .team-pic {
   background: url('https://i.imgur.com/OSCAKJb.jpg') 50% 0;
-  height: 600px;
+  height: 500px;
+  border-radius: 50%;
 }
 
 #team-members-container {
@@ -824,7 +831,7 @@ footer .fab.fa-pinterest:hover{
 
 
   #porfolio-header-wrapper {
-    background: url('https://i.imgur.com/vqeeYCK.jpg') 50% 0;
+    background: url('https://i.imgur.com/J1bbUEj.jpg') 50% 0;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1048,6 +1055,11 @@ footer .fab.fa-pinterest:hover{
   
   #mainNavbar ul li.active a:hover{
     color: rgba(255, 255, 255, 0.9);
+  }
+
+  .team-pic {
+    height: 450px;
+    width: auto;
   }
 
   .inner-layer-text {
