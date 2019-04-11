@@ -114,6 +114,10 @@ h5 {
   color:rgb(255, 193, 7);
 }
 
+#mainNavbar li.dropdown .dropdown-menu a.dropdown-item.active {
+  background-color: rgb(255, 193, 7);
+}
+
 /* #mainNavbar li.dropdown .dropdown-menu a.dropdown-item */
 
 .navbar.scrolled {
@@ -947,8 +951,11 @@ footer .fab.fa-pinterest:hover{
   }
 
  .fa-plus {
-    color: red;
-    font-size: 2.5rem;
+    color:white; /* text-warning */
+    font-size: 3rem;
+  }
+  .fa-plus:hover {
+    color:#ffc107; /* text-warning */
   }
 
 
@@ -1015,6 +1022,28 @@ footer .fab.fa-pinterest:hover{
   /* background-color: bisque; */
   margin-top: 5%;
 }
+
+/* ********** Event-Layout***********/
+
+.event-img-layout {
+  height: 600px;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+.event-img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.lrg-event-img {
+height: 500px;
+}
+
+.sml-event-img {
+  height: 238px;
+  /* width: 90%; */
+  }
 
 
   /* **********************************************************************
