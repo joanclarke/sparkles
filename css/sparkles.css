@@ -835,7 +835,7 @@ footer .fab.fa-pinterest:hover{
 
 
   #porfolio-header-wrapper {
-    background: url('https://i.imgur.com/J1bbUEj.jpg') 50% 0;
+    background: url('https://i.imgur.com/WF2UtaT.jpg') 50% 0;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -1024,27 +1024,59 @@ footer .fab.fa-pinterest:hover{
 }
 
 /* ********** Event-Layout***********/
+  #events-header-wrapper {
+    background: url('https://i.imgur.com/eFrUJoH.jpg') 50% 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: multiply;
+  }
+
 
 .event-img-layout {
-  height: 600px;
-  margin-top: 70px;
+  /* height: 600px; */
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.event-img {
+/* .event-img {
   width: 100%;
   overflow: hidden;
 }
 
 .lrg-event-img {
+width: 70%;
+}
+
+.sml-event-img {
+  width: 30%;
+  } */
+
+/* .lrg-event-img {
 height: 500px;
 }
 
 .sml-event-img {
   height: 238px;
-  /* width: 90%; */
-  }
+  } */
 
+.img-gallery {
+  margin: 10px 50px;
+}
+.img-gallery img {
+  /* width: 30%;
+  height: auto; */
+  transition:1s;
+  padding: 15px;
+  width: 200px;
+}
+
+.img-gallery img:hover {
+  filter: grayscale(100%); /*adds additional effect when mouse hovers over images*/
+  transform: scale(1.1); /*increase size on hover*/
+}
 
   /* **********************************************************************
                                 MEDIA QUERY 
